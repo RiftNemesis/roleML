@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.10.0b2
 RUN pip3 install pandas
 RUN pip3 install --no-cache-dir -U scikit-learn
 WORKDIR /app
